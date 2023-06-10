@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "products-api",
+    "dateExported": "2023-06-10T14:44:04.550Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "20ba2c68-c394-4a47-9844-1dec6f88bf6e",
+            "colId": "22e61186-658d-4ffa-a4ee-aba4986e8f42",
+            "containerId": "",
+            "name": "products-api / GET One Product",
+            "url": "localhost:8080/products/cb0759ea-db51-4036-8025-a2d52d181176",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-10T14:19:11.127Z",
+            "modified": "2023-06-10T14:19:11.127Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "038a3b33-b915-422d-8400-48bd90285d20",
+            "colId": "22e61186-658d-4ffa-a4ee-aba4986e8f42",
+            "containerId": "",
+            "name": "products-api / GET Products Copy",
+            "url": "localhost:8080/products",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-10T14:19:22.508Z",
+            "modified": "2023-06-10T14:19:22.508Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a6db5b00-2164-4a8c-aae7-91a017122bd9",
+            "colId": "22e61186-658d-4ffa-a4ee-aba4986e8f42",
+            "containerId": "",
+            "name": "products-api / DELETE Product",
+            "url": "localhost:8080/products/819f0cbd-39e9-4c15-a7e1-92e699b0e762",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-06-10T14:19:27.884Z",
+            "modified": "2023-06-10T14:19:27.884Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b052a574-7851-4822-aa23-b4543375d7af",
+            "colId": "22e61186-658d-4ffa-a4ee-aba4986e8f42",
+            "containerId": "",
+            "name": "products-api / PUT Product Copy",
+            "url": "localhost:8080/products/819f0cbd-39e9-4c15-a7e1-92e699b0e762",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-06-10T14:20:01.989Z",
+            "modified": "2023-06-10T14:20:01.989Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Listerine\",\n  \"value\": 17.90\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4056a736-6a33-4252-8eb5-8b5e031bb5e0",
+            "colId": "22e61186-658d-4ffa-a4ee-aba4986e8f42",
+            "containerId": "",
+            "name": "products-api / POST Product Copy Copy",
+            "url": "localhost:8080/products",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-06-10T14:20:20.126Z",
+            "modified": "2023-06-10T14:20:20.126Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Samsung S6 Lite\",\n  \"value\": 1799.00\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
